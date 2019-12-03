@@ -3,7 +3,7 @@
 #include <vector>
 
 using namespace std;
-
+vector<string>listFromString(string line);
 
 int main()
 {
@@ -22,5 +22,15 @@ int main()
     }
 
     return 0;
+vector<string>listFromString(string line)
+{
+        vector<string>word;
+        for(int i=0; i<inventory.size(); i++)
+        {
+                if line[i]>"";
+                {
 }
+                     
+                
+
            
